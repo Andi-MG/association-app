@@ -12,10 +12,10 @@ export default function LoginForm() {
                     <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <div className="card-body">
                             <fieldset className="fieldset">
-                                <label className="fieldset-label">Correo electrónico</label>
-                                <input type="email" className="input" placeholder="Correo electrónico"/>
-                                <label className="fieldset-label">Contraseña</label>
-                                <input type="password" className="input" placeholder="Contraseña"/>
+                                <label htmlFor="email-input" className="fieldset-label">Correo electrónico</label>
+                                <input id="email-input" type="email" className="input" placeholder="Correo electrónico"/>
+                                <label htmlFor="password-input" className="fieldset-label">Contraseña</label>
+                                <input id="password-input" type="password" className="input" placeholder="Contraseña"/>
                                 <div><a className="link link-hover">¿Olvidó su contraseña?</a></div>
                                 <button className="btn btn-neutral mt-4">Iniciar sesión</button>
                             </fieldset>
