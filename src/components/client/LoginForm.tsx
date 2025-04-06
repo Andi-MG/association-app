@@ -17,7 +17,7 @@ export default function LoginForm() {
                                 <label htmlFor="password-input" className="fieldset-label">Contraseña</label>
                                 <input id="password-input" type="password" className="input" placeholder="Contraseña"/>
                                 <div><a className="link link-hover">¿Olvidó su contraseña?</a></div>
-                                <button className="btn btn-neutral mt-4">Iniciar sesión</button>
+                                <button className="btn btn-primary mt-4">Iniciar sesión</button>
                             </fieldset>
                         </div>
                     </div>

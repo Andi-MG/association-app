@@ -24,7 +24,7 @@ export default function MembersClient() {
     }, []);
 
     if (!member) {
-        return <span className="loading loading-bars loading-xl"></span>
+        return <span className="loading loading-bars loading-xl"/>
     }
 
     return (

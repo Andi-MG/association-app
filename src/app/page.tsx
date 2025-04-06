@@ -5,7 +5,7 @@ import Drawer from "@/components/Drawer";
 export default function Home() {
     return (
         <Drawer>
-            <div className="text-center grow py-8 px-8">
+            <div className="text-center bg-base-200 grow py-8 px-8">
                 <h1 className="text-4xl font-bold mb-4">Asociación</h1>
                 <h2 className="text-2xl font-semibold mb-2">Tablón de anuncios públicos</h2>
                 <p className="text-lg mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
