@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Association Manager",
+  title: "Asociación",
   description: "Work in progress",
 };
 
