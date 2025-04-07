@@ -24,7 +24,7 @@ export default function MembersClient() {
     }, []);
 
     if (!member) {
-        return <>Api url: {process.env.NEXT_PUBLIC_API_BASE_URL}<span className="loading loading-bars loading-xl"/></>
+        return <span className="loading loading-bars loading-xl"/>
     }
 
     return (
